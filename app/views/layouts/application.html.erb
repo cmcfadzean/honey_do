@@ -21,5 +21,10 @@
     <%= yield %>
     <%= component "alert", id: "notice", message: notice %>
     <%= component "alert", id: "alert", message: alert %>
+    <script>
+      $(function() {
+        $('.sortable').railsSortable();
+      });
+    </script>
   </body>
 </html>

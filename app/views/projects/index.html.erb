@@ -13,9 +13,9 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
+  <tbody class="sortable">
+    <% @projects.each_with_sortable_id do |project, sortable_id| %>
+      <tr id="<%= sortable_id %>">
         <td><%= project.title %></td>
         <td><%= project.description %></td>
         <td><%= project.status %></td>
