@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  project: one
+  company: MyString
+  price: MyString
+  website: MyString
+  phone: MyString
+  notes: MyText
+
+two:
+  project: two
+  company: MyString
+  price: MyString
+  website: MyString
+  phone: MyString
+  notes: MyText
