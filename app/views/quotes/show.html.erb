@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Company:</b>
+  <%= @quote.company %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @quote.price %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%= @quote.website %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @quote.phone %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @quote.notes %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_quote_path(@quote.project, @quote) %> |
+<%= link_to 'Back', project_quotes_path(@quote.project) %>
